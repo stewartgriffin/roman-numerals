@@ -4,19 +4,24 @@ end
 
 class Fixnum
   def to_roman 
+    find_roman_number(self)
+  end
+  
+  private
+  
+  def find_roman_number(number)
     output = String.new
-    temp = self
-    
-    if temp == 5
+    if number == 5
       output.concat('V')
-    elsif temp == 4
+    elsif number == 4
       output.concat('IV')
     else
-      while temp > 0
+      while number > 0
         output.concat('I')
-        temp -= 1
+        number -= 1
       end
     end
     output
   end
+
 end
