@@ -6,9 +6,14 @@ class Fixnum
   def to_roman 
     output = String.new
     temp = self
-    while temp > 0
-      output.concat('I')
-      temp -= 1
+    
+    if temp == 4
+      output.concat('IV')
+    else
+      while temp > 0
+        output.concat('I')
+        temp -= 1
+      end
     end
     output
   end
