@@ -7,7 +7,9 @@ class Fixnum
     output = String.new
     temp = self
     
-    if temp == 4
+    if temp == 5
+      output.concat('V')
+    elsif temp == 4
       output.concat('IV')
     else
       while temp > 0
