@@ -12,90 +12,126 @@ class RomanNumeralsTest < Minitest::Test
   end
 
   def test_2
-    skip
+    #skip
     assert_equal 'II', 2.to_roman
   end
 
   def test_3
-    skip
+    #skip
     assert_equal 'III', 3.to_roman
   end
 
   def test_4
-    skip
+    #skip
     assert_equal 'IV', 4.to_roman
   end
 
   def test_5
-    skip
+    #skip
     assert_equal 'V', 5.to_roman
   end
 
   def test_6
-    skip
+    #skip
     assert_equal 'VI', 6.to_roman
   end
 
   def test_9
-    skip
+    #skip
     assert_equal 'IX', 9.to_roman
   end
 
   def test_27
-    skip
+    #skip
     assert_equal 'XXVII', 27.to_roman
   end
 
   def test_48
-    skip
+    #skip
     assert_equal 'XLVIII', 48.to_roman
   end
 
   def test_59
-    skip
+    #skip
     assert_equal 'LIX', 59.to_roman
   end
 
   def test_93
-    skip
+    #skip
     assert_equal 'XCIII', 93.to_roman
   end
 
   def test_141
-    skip
+    #skip
     assert_equal 'CXLI', 141.to_roman
   end
 
   def test_163
-    skip
+    #skip
     assert_equal 'CLXIII', 163.to_roman
   end
 
   def test_402
-    skip
+    #skip
     assert_equal 'CDII', 402.to_roman
   end
 
   def test_575
-    skip
+    #skip
     assert_equal 'DLXXV', 575.to_roman
   end
 
   def test_911
-    skip
+    #skip
     assert_equal 'CMXI', 911.to_roman
   end
 
   def test_1024
-    skip
+    #skip
     assert_equal 'MXXIV', 1024.to_roman
   end
 
   def test_3000
-    skip
+    #skip
     assert_equal 'MMM', 3000.to_roman
   end
+  
+  def test_10
+    skip
+    assert_equal 'X', 10.to_roman
+  end 
 
+  def test_40
+    skip
+    assert_equal 'XL', 40.to_roman
+  end  
+
+  def test_50
+    skip
+    assert_equal 'L', 50.to_roman
+  end  
+
+  def test_90
+    skip
+    assert_equal 'XC', 90.to_roman
+  end  
+
+  def test_100
+    skip
+    assert_equal 'C', 100.to_roman
+  end  
+
+  def test_400
+    skip
+    assert_equal 'CD', 400.to_roman
+  end
+
+  def test_500
+    skip
+    assert_equal 'D', 500.to_roman
+  end
+  
+  
   # Problems in exercism evolve over time, as we find better ways to ask
   # questions.
   # The version number refers to the version of the problem you solved,
@@ -113,7 +149,7 @@ class RomanNumeralsTest < Minitest::Test
   # http://ruby-doc.org/docs/ruby-doc-bundle/UsersGuide/rg/constants.html
 
   def test_bookkeeping
-    skip
+    #skip
     assert_equal 2, BookKeeping::VERSION
   end
 end
