@@ -17,7 +17,7 @@ class Fixnum
       if number >= 1000
         output.concat('M')
         number -= 1000
-      elsif number > 900
+      elsif number >= 900
         output.concat('CM')
         number -= 900
       elsif number >= 500
