@@ -97,38 +97,43 @@ class RomanNumeralsTest < Minitest::Test
   end
   
   def test_10
-    skip
+    #skip
     assert_equal 'X', 10.to_roman
   end 
 
   def test_40
-    skip
+    #skip
     assert_equal 'XL', 40.to_roman
   end  
 
   def test_50
-    skip
+    #skip
     assert_equal 'L', 50.to_roman
   end  
 
   def test_90
-    skip
+    #skip
     assert_equal 'XC', 90.to_roman
   end  
 
   def test_100
-    skip
+    #skip
     assert_equal 'C', 100.to_roman
   end  
 
   def test_400
-    skip
+    #skip
     assert_equal 'CD', 400.to_roman
   end
 
   def test_500
-    skip
+    #skip
     assert_equal 'D', 500.to_roman
+  end
+  
+  def test_900
+    #skip
+    assert_equal 'CM', 900.to_roman
   end
   
   
