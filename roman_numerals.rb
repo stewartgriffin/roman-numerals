@@ -14,7 +14,7 @@ class Fixnum
     
     while (number > 0) do
     
-      if number > 1000
+      if number >= 1000
         output.concat('M')
         number -= 1000
       elsif number > 900
