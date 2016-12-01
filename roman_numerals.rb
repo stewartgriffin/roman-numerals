@@ -4,16 +4,10 @@ end
 
 class Fixnum
   def to_roman 
-    find_roman_number(self)
-  end
-  
-  private
-  
-  def find_roman_number(number)
+    number = self
     output = String.new
     
     while (number > 0) do
-    
       if number >= 1000
         output.concat('M')
         number -= 1000
