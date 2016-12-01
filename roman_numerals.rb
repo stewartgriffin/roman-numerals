@@ -20,22 +20,22 @@ class Fixnum
       elsif number > 900
         output.concat('CM')
         number -= 900
-      elsif number > 500
+      elsif number >= 500
         output.concat('D')
         number -= 500
-      elsif number > 400
+      elsif number >= 400
         output.concat('CD')
         number -= 400
-      elsif number > 100
+      elsif number >= 100
         output.concat('C')
         number -= 100
-      elsif number > 90
+      elsif number >= 90
         output.concat('XC')  
         number -= 90
-      elsif number > 50
+      elsif number >= 50
         output.concat('L')  
         number -= 50
-      elsif number > 40 
+      elsif number >= 40 
         output.concat('XL')
         number -= 40
       elsif number >= 10
